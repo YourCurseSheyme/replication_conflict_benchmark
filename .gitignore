@@ -18,3 +18,4 @@ benchmark
 benchmark/*
 scripts/realpath
 scripts/realpath/*
+scripts/test_data.md
