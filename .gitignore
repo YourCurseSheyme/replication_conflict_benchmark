@@ -12,3 +12,9 @@ luac.out
 # log files
 *.xlog
 *.snap
+
+# test env
+benchmark
+benchmark/*
+scripts/realpath
+scripts/realpath/*
