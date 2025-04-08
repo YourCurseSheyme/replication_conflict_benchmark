@@ -1,0 +1,14 @@
+
+### Lua template
+# Compiled Lua sources
+luac.out
+
+# luarocks build files
+*.src.rock
+*.rocks
+
+### Tarantool
+
+# log files
+*.xlog
+*.snap
