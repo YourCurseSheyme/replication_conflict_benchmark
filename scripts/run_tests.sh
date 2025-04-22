@@ -2,11 +2,6 @@
 
 set -e
 
-# Потом на 2 файла надо разбить:
-# - создание скриптов
-# - их запуск
-# почему так? потому что скрипты на sql, где тарантул - частный случай
-
 # Configuration
 
 BASE_PORT=3301
@@ -26,6 +21,7 @@ cleanup() {
     rm -f "$SCRIPTS_DIR/test_data.md" || true
     mkdir -p "$INSTANCE1_DIR/wal" "$INSTANCE1_DIR/snap"
     mkdir -p "$INSTANCE2_DIR/wal" "$INSTANCE2_DIR/snap"
+    echo "Done"
 }
 
 # Selecting tests
