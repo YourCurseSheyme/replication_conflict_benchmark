@@ -5,7 +5,7 @@
 1. Initial data entry under active replication
 
 ```sql
-insert into customers values (1, "BabyBoi"), (2, "BabyGirl");
+insert into customers values (1, 'BabyBoi'), (2, 'BabyGirl');
 insert into accounts values (101, 1, 500), (102, 2, 300);
 ```
 

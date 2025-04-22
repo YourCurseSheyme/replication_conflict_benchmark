@@ -19,9 +19,9 @@ finding potential mistakes in the work, as well as handling non-standard cases.
 
 Simple description of each of the examples:
 
-- 1
-- 2
-- 3
+- 1: example with simple primary key conflict
+- 2: complicated example with adding dependencies on conflict fields
+- 3: example with binding of conflict fields to physical objects
 
 ---
 
@@ -45,7 +45,7 @@ Simple description of each of the examples:
 
 ## How to run
 
-Disclaimer: Tarantool tests
+Disclaimer: Tarantool 2.11 tests
 
 1. Clone the repository
 
@@ -66,3 +66,5 @@ cd scripts
 ```bash
 less test_data.md
 ```
+
+Also it is acceptable to use your own tests on ready-made databases. Development of ideas and revisions are welcome.
