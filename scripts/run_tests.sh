@@ -31,7 +31,7 @@ cleanup() {
 # Selecting tests
 
 select_test() {
-    echo "Available test scenarios: 1"
+    echo "Available test scenarios: 1, 2"
     while true; do
         read -p "Select test scenario: " test_num
         case $test_num in
@@ -42,7 +42,6 @@ select_test() {
                 mv content.md test_data.md
                 return 0
                 ;;
-    # Очевидно расписать некст тесты
             *)
                 echo "Invalid selection"
                 ;;

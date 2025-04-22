@@ -10,9 +10,10 @@ box.cfg({
 
 box.once("schema", function()
     box.schema.user.grant('guest', 'read,write,execute', 'universe')
+
     box.schema.create_space("accounts", {
         format = {
-            {name = 'id', type = 'number'},
+            {name = 'id', type = 'unsigned'},
             {name = 'value', type = 'any'}
         },
         if_not_exists = true,
