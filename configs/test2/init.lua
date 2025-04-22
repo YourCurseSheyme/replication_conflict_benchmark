@@ -44,7 +44,4 @@ box.once("schema", function()
     print('box.once executed')
 end)
 
--- так как в Tarantool нет явной поддержки внешних ключей, не имеется смысла писать индексы, функции и триггеры
--- для их реализации
-
 print("test 2 loaded")

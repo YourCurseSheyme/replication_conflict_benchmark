@@ -92,6 +92,11 @@ start_instances() {
     echo "replica: 127.0.0.1:$((BASE_PORT + 1))"
     echo "test: $SELECTED_TEST"
     echo "To continue testing, read: ./test_data.md"
+
+    local benchmark_path=$(realpath "$DATA_DIR")
+    cp resolver.lua "$benchmark_path"/node1
+    cp resolver.lua "$benchmark_path"/node2
+    echo "To test resolver module, enter at any node: require('resolver')"
 }
 
 main() {
