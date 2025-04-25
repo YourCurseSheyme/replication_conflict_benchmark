@@ -24,7 +24,7 @@ insert into accounts values (3, 700);
 4. First node separated insertion and recovering replication
 
 ```sql
-insert into accounts values (4, 1000);
+insert into accounts values (3, 1000);
 ```
 
 ```lua
