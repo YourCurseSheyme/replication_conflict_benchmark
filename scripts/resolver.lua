@@ -1,7 +1,7 @@
 
 -- Needed modules and initializations
 
-local net_box = require("net.box")
+local net_box = require('net.box')
 local xlog = require('xlog')
 
 local M = {
