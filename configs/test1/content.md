@@ -32,5 +32,5 @@ box.cfg{replication = original_replication}
 
 Duplicate key exists in unique index "acc_id"
 in space "accounts" with old tuple - [3, 700]
-and new tuple - [4, 1000]
+and new tuple - [3, 1000]
 ```
